@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background: #333;
+    background: #282c34;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -27,6 +27,7 @@ header h1 {
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 10px 0 0;
 }
 
 nav ul li {
@@ -35,13 +36,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #61dafb;
     text-decoration: none;
     font-size: 1.2em;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
+    color: #21a1f1;
 }
 
 main {
@@ -51,10 +53,11 @@ main {
 }
 
 h2 {
-    color: #333;
-    border-bottom: 2px solid #333;
+    color: #282c34;
+    border-bottom: 2px solid #61dafb;
     padding-bottom: 10px;
     margin-bottom: 20px;
+    font-size: 2em;
 }
 
 .featured-works, .portfolio {
@@ -67,7 +70,7 @@ h2 {
     background: #fff;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     flex: 1;
     min-width: 300px;
     text-align: center;
@@ -76,10 +79,15 @@ h2 {
 .featured-works img, .portfolio img {
     width: 100%;
     height: auto;
+    transition: transform 0.3s ease;
+}
+
+.featured-works img:hover, .portfolio img:hover {
+    transform: scale(1.05);
 }
 
 .featured-works p, .portfolio p {
-    padding: 10px;
+    padding: 15px;
     color: #666;
 }
 
@@ -87,7 +95,7 @@ form {
     background: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     max-width: 600px;
     margin: auto;
 }
@@ -111,19 +119,20 @@ form button {
     margin-top: 10px;
     padding: 10px;
     border: none;
-    background: #333;
+    background: #61dafb;
     color: #fff;
     font-size: 1.2em;
     cursor: pointer;
     border-radius: 4px;
+    transition: background 0.3s ease;
 }
 
 form button:hover {
-    background: #555;
+    background: #21a1f1;
 }
 
 footer {
-    background: #333;
+    background: #282c34;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -144,5 +153,19 @@ footer p {
 
     .featured-works, .portfolio {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        font-size: 1em;
+    }
+
+    form button {
+        font-size: 1em;
     }
 }
