@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Art Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Art Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="request.html">Request a Painting</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Me</h2>
+        <p>If you have any questions or inquiries, feel free to reach out!</p>
+        <address>
+            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+            <p>Phone: +123 456 7890</p>
+        </address>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Art Gallery | Designed by [Your Name]</p>
+    </footer>
+</body>
+</html>

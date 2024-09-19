@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - My Art Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Art Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="request.html">Request a Painting</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>My Portfolio</h2>
+        <div class="portfolio">
+            <!-- Add images and descriptions of your paintings -->
+            <div class="painting">
+                <img src="images/painting1.jpg" alt="Painting 1">
+                <p>Description of Painting 1</p>
+            </div>
+            <div class="painting">
+                <img src="images/painting2.jpg" alt="Painting 2">
+                <p>Description of Painting 2</p>
+            </div>
+            <!-- Add more paintings as needed -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Art Gallery | Designed by [Your Name]</p>
+    </footer>
+</body>
+</html>
